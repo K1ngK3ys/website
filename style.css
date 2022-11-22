@@ -46,6 +46,7 @@ body{
 }
 h3{
     position: relative;
+    top: 20px;
     color: #191919;
     font-size: 80px;
     text-transform: capitalize;
@@ -90,6 +91,8 @@ span{
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
+    position: relative;
+    top: 40px;
 }
 button{
     background: #f9004d;
@@ -98,6 +101,9 @@ button{
     border: 2px solid transparent;
     font-weight: bold;
     padding: 13px 30px;
+    position: relative;
+    right: 640px;
+    bottom: 210px;
     border-radius: 30px;
     transition: .4s;
 }
@@ -111,6 +117,8 @@ h4{
     font-size: 80px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    position: relative;
+    top: 80px;
 }
 p3{
     color: #fcfc;
@@ -118,11 +126,80 @@ p3{
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
+    position: relative;
+    top: 80px;
+    
 }
 h5{
     color: white;
     font-size: 25px;
     text-transform: capitalize;
     margin-bottom: 25px;
-    letter-spacing: 2px;  
+    letter-spacing: 2px;
+    position: relative;
+    top: 80px;
+      
+}
+h6{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    position: relative;
+    right: 460px;
+    bottom: 150px; 
+}
+button1{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    position: relative;
+    top: 40px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button1:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+button2{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    position: relative;
+    right: 460px;
+    bottom: 140px;
+    border-radius: 30px;
+    transition: .4s; 
+}
+button2:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+button3{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    position: relative;
+    right: 580px;
+    bottom: 60px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button3:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
 }
